@@ -68,3 +68,6 @@ h1 {
   border-radius: 6px;
   cursor: pointer;
 }
+.question-card button:hover {
+  background-color: #2980b9;
+}
