@@ -102,3 +102,9 @@ h1 {
   list-style: none;
   padding: 0;
 }
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 14px;
+  color: gray;
+}
