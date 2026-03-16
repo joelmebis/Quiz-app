@@ -18,6 +18,10 @@ body {
   justify-content: center;
   gap: 20px;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+}
 
 .navbar a {
   font-size: 18px;
