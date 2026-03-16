@@ -20,6 +20,7 @@ body {
 }
 
 .navbar a {
+  font-size: 18px;
   color: white; /* weiße Links */
   text-decoration: none; /* keine Unterstreichung */
   margin: 0 15px; /* Abstand zwischen den Links */
