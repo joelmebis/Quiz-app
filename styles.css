@@ -1,0 +1,23 @@
+/* --- Grundstil für die gesamte Seite --- */
+body {
+  font-family: Arial, sans-serif; /* gut lesbare Schrift */
+  background-color: #f0f0f0; /* hellgrauer Hintergrund */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* zentriert alle Texte standardmäßig */
+} /* --- Navbar --- */
+.navbar {
+  background-color: #2c3e50; /* dunkler Balken */
+  padding: 15px;
+}
+
+.navbar a {
+  color: white; /* weiße Links */
+  text-decoration: none; /* keine Unterstreichung */
+  margin: 0 15px; /* Abstand zwischen den Links */
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Hover-Effekt */
+}
