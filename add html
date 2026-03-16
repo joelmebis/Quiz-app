@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz App - Add</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Neue Frage</h1></header>
+    <main>
+      <form class="add-form">
+        <div class="input-group">
+          <label for="question">Frage:</label>
+          <textarea
+            id="question"
+            name="question"
+            maxlength="150"
+            required
+          ></textarea>
+        </div>
+        <div class="input-group">
+          <label for="answer">Antwort:</label>
+          <textarea
+            id="answer"
+            name="answer"
+            maxlength="150"
+            required
+          ></textarea>
+        </div>
+        <div class="input-group">
+          <label for="tag">Tag:</label>
+          <input type="text" id="tag" placeholder="#html" />
+        </div>
+        <button type="submit" class="submit-button">Erstellen</button>
+      </form>
+    </main>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="add.html" class="active">Add</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </body>
+</html>
