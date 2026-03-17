@@ -7,28 +7,38 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header><h1>Quiz App</h1></header>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
     <main class="quiz-area">
       <article class="question-card">
-        <button class="bookmark-button" aria-label="bookmark">
+        <button type="button" class="bookmark-button" aria-label="bookmark">
           <svg viewBox="0 0 24 24" width="24" height="24">
             <path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z" />
           </svg>
         </button>
+
         <h2>Wer sind die Coaches?</h2>
-        <button class="answer-button">Show Answer</button>
+
+        <button type="button" class="answer-button">Show Answer</button>
+
         <p class="answer-text" hidden>Olivia, Artemiy, Klaus und Maria.</p>
+
         <ul class="tag-list">
           <li>#neuefische</li>
           <li>#coaches</li>
         </ul>
       </article>
     </main>
+
     <nav class="navbar">
-      <a href="index.html" class="active">Home</a>
-      <a href="bookmarks.html">Bookmarks</a>
-      <a href="add.html">Add</a>
-      <a href="profile.html">Profile</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+        <li><a href="add.html">Add</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
     </nav>
   </body>
 </html>

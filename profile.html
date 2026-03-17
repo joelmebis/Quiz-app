@@ -2,28 +2,39 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App - Profile</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header><h1>Profil</h1></header>
-    <main>
+    <header>
+      <h1>Profil</h1>
+    </header>
+
+    <main class="quiz-area">
       <section class="profile-card">
         <img
           src="https://ui-avatars.com/api/?name=User&background=3498db&color=fff"
-          alt="Avatar"
+          alt="Benutzer Avatar"
           class="avatar"
         />
-        <h2>Web Developer</h2>
-        <p>Bootcamp: neue fische</p>
-        <button class="answer-button">Abmelden</button>
+        <h2>Joel Mebis</h2>
+
+        <div class="profile-stats">
+          <p>Bootcamp: neue fische</p>
+        </div>
+
+        <button type="button" class="logout-button">Abmelden</button>
       </section>
     </main>
+
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="bookmarks.html">Bookmarks</a>
-      <a href="add.html">Add</a>
-      <a href="profile.html" class="active">Profile</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+        <li><a href="add.html">Add</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+      </ul>
     </nav>
   </body>
 </html>
